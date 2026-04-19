@@ -1,0 +1,18 @@
+{
+  "delivery_days": 12.0,
+  "delivery_vs_estimated": -9.0,
+  "price": 139.99,
+  "freight_value": 13.11,
+  "product_category_name_english": "consoles_games",
+  "seller_state": "MG",
+  "payment_type": "boleto",
+  "same_state": 1,
+  "seller_score": 4.408376963350785,
+  "num_previous_sales": 191.0,
+  "cust_reviews": 1.0,
+  "num_previous_reviews": 0,
+  "num_items": 1,
+  "freight_ratio": 0.0936495463961711,
+  "is_repeat_customer": 0,
+  "delivery_missing": 0
+}

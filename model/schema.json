@@ -1,0 +1,203 @@
+{
+  "numeric_features": {
+    "delivery_days": {
+      "min": 0,
+      "max": null,
+      "nullable": false
+    },
+    "delivery_vs_estimated": {
+      "min": null,
+      "max": null,
+      "nullable": false
+    },
+    "price": {
+      "min": 0,
+      "max": null,
+      "nullable": false
+    },
+    "freight_value": {
+      "min": 0,
+      "max": null,
+      "nullable": false
+    },
+    "seller_score": {
+      "min": 1,
+      "max": 5,
+      "nullable": true
+    },
+    "num_previous_sales": {
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    "cust_reviews": {
+      "min": 1,
+      "max": 5,
+      "nullable": true
+    },
+    "num_previous_reviews": {
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    "num_items": {
+      "min": 1,
+      "max": null,
+      "nullable": false
+    },
+    "freight_ratio": {
+      "min": 0,
+      "max": null,
+      "nullable": false
+    },
+    "same_state": {
+      "min": 0,
+      "max": 1,
+      "nullable": false
+    },
+    "is_repeat_customer": {
+      "min": 0,
+      "max": 1,
+      "nullable": false
+    },
+    "delivery_missing": {
+      "min": 0,
+      "max": 1,
+      "nullable": false
+    }
+  },
+  "categorical_features": {
+    "product_category_name_english": {
+      "allowed": [
+        "agro_industry_and_commerce",
+        "air_conditioning",
+        "art",
+        "arts_and_craftmanship",
+        "audio",
+        "auto",
+        "baby",
+        "bed_bath_table",
+        "books_general_interest",
+        "books_imported",
+        "books_technical",
+        "cds_dvds_musicals",
+        "christmas_supplies",
+        "cine_photo",
+        "computers",
+        "computers_accessories",
+        "consoles_games",
+        "construction_tools_construction",
+        "construction_tools_lights",
+        "construction_tools_safety",
+        "cool_stuff",
+        "costruction_tools_garden",
+        "costruction_tools_tools",
+        "diapers_and_hygiene",
+        "drinks",
+        "dvds_blu_ray",
+        "electronics",
+        "fashio_female_clothing",
+        "fashion_bags_accessories",
+        "fashion_childrens_clothes",
+        "fashion_male_clothing",
+        "fashion_shoes",
+        "fashion_sport",
+        "fashion_underwear_beach",
+        "fixed_telephony",
+        "flowers",
+        "food",
+        "food_drink",
+        "furniture_bedroom",
+        "furniture_decor",
+        "furniture_living_room",
+        "furniture_mattress_and_upholstery",
+        "garden_tools",
+        "health_beauty",
+        "home_appliances",
+        "home_appliances_2",
+        "home_comfort_2",
+        "home_confort",
+        "home_construction",
+        "housewares",
+        "industry_commerce_and_business",
+        "kitchen_dining_laundry_garden_furniture",
+        "la_cuisine",
+        "luggage_accessories",
+        "market_place",
+        "music",
+        "musical_instruments",
+        "office_furniture",
+        "party_supplies",
+        "perfumery",
+        "pet_shop",
+        "security_and_services",
+        "signaling_and_security",
+        "small_appliances",
+        "small_appliances_home_oven_and_coffee",
+        "sports_leisure",
+        "stationery",
+        "tablets_printing_image",
+        "telephony",
+        "toys",
+        "watches_gifts"
+      ],
+      "nullable": false
+    },
+    "seller_state": {
+      "allowed": [
+        "AC",
+        "AM",
+        "BA",
+        "CE",
+        "DF",
+        "ES",
+        "GO",
+        "MA",
+        "MG",
+        "MS",
+        "MT",
+        "PA",
+        "PB",
+        "PE",
+        "PI",
+        "PR",
+        "RJ",
+        "RN",
+        "RO",
+        "RS",
+        "SC",
+        "SE",
+        "SP"
+      ],
+      "nullable": false
+    },
+    "payment_type": {
+      "allowed": [
+        "boleto",
+        "credit_card",
+        "debit_card",
+        "not_defined",
+        "voucher"
+      ],
+      "nullable": false
+    }
+  },
+  "all_features": [
+    "delivery_days",
+    "delivery_vs_estimated",
+    "price",
+    "freight_value",
+    "seller_score",
+    "num_previous_sales",
+    "cust_reviews",
+    "freight_ratio",
+    "num_previous_reviews",
+    "num_items",
+    "same_state",
+    "is_repeat_customer",
+    "delivery_missing",
+    "product_category_name_english",
+    "seller_state",
+    "payment_type"
+  ]
+}
